@@ -1,4 +1,49 @@
+
 body{
-    color:white; 
-    background:aqua;
+    color:aliceblue;
+    background: rgb(170, 255, 248);
+    margin:0px;
+    font-family: "Chakra Petch", sans-serif;
+}
+header {
+    border-bottom: solid 4px white;
+    padding: 10px;
+    font-size: 50px;
+    color: white;
+    text-align: center;
     }
+section {
+    background: rgb(0, 195, 255);
+    padding-bottom: 50px;
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+div {
+    margin-right: 20px;
+}
+.texto {
+    margin-left: 20px;
+    margin-top: 2px;
+    display:inline-flexbox;
+    justify-content:center;
+    text-align: justify;
+   
+}
+.chamada-texto {
+    margin-left: 20px;
+    margin-top: 2px;
+    display:inline-flexbox;
+    justify-content:center;
+    text-align: right;
+}
+
+h1{
+    font-size: 40px;
+}
+p{
+    font-size: 20px;
+}
+h2{
+    font-size: 30px;
+}
